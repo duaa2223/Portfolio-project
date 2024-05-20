@@ -30,11 +30,23 @@
   }
   
 
-body {
-    font-family: 'Roboto', sans-serif;
-    
-    
+ .main-font{
+    font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+     font-weight:200;
+     font-style: normal;
 }
+.scd-font{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+
+}
+.boold{
+    font-weight:bold;
+}
+
 .full-height {
     height: 100vh;
 }
@@ -186,10 +198,14 @@ body {
      font-size: xx-large;
      margin-top: 10%;
      /* font from google */
-        font-family: "Poetsen One", sans-serif;
+        /* font-family: "Poetsen One", sans-serif;
         font-weight: 400;
         font-style: normal;
-      
+       */
+       font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+     font-weight:600;
+     font-style: normal;
       
 }
 .front{
